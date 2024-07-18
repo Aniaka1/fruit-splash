@@ -9,6 +9,7 @@
 /*landing page section*/
 .fruitsplash-container{
   width:100%;
+  max-width:1300px;
 }
 
 .fruitsplash-fruit{
@@ -36,6 +37,8 @@
   background-size:cover;
   background-position:center;
   background-repeat:no-repeat;
+  object-fit:cover;
+  object-position:top;
 }
 
 .fruitsplash-fruit.apple{
