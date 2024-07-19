@@ -43,7 +43,7 @@
   width:100%;
   max-width:1300px;
   display:block;
-  background:url(images/apple-background-2.jpg);
+  background-image:url(images/apple-background-2.jpg);
   background-size:cover;
   background-position:center;
   background-repeat:no-repeat;
@@ -53,7 +53,7 @@
   width:100%;
   max-width:1300px;
   display:block;
-  background:url(images/orange-background.jpg);
+  background-image:url(images/orange-background.jpg);
   background-size:cover;
   background-position:center;
   background-repeat:no-repeat;
@@ -63,7 +63,7 @@
   width:100%;
   max-width:1300px;
   display:block;
-  background:url(images/pineapple-background.jpg);
+  background-image:url(images/pineapple-background.jpg);
   background-size:cover;
   background-position:center;
   background-repeat:no-repeat;
@@ -73,7 +73,7 @@
   width:100%;
   max-width:1300px;
   display:block;
-  background:url(images/mango-background.jpg);
+  background-image:url(images/mango-background.jpg);
   background-size:cover;
   background-position:center;
   background-repeat:no-repeat;
@@ -83,7 +83,7 @@
   width:100%;
   max-width:1300px;
   display:block;
-  background:url(images/pawpaw-background.jpg);
+  background-image:url(images/pawpaw-background.jpg);
   background-size:cover;
   background-position:center;
   background-repeat:no-repeat;
