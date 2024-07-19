@@ -31,9 +31,9 @@
 
 .fruitsplash-fruit.strawberry{
   width:100%;
-  max-width:1300px;
+  width:1300px;
   display:block;
-  background:url(images/strawberry-background-2.jpg);
+  background-image:url(images/strawberry-background-2.jpg);
   background-size:cover;
   background-position:center;
   background-repeat:no-repeat;
@@ -41,9 +41,9 @@
 
 .fruitsplash-fruit.apple{
   width:100%;
-  max-width:1300px;
+  width:1300px;
   display:block;
-  background-image:url(images/apple-background-2.jpg);
+  background-image:url(images/apple-background.jpg);
   background-size:cover;
   background-position:center;
   background-repeat:no-repeat;
@@ -51,7 +51,7 @@
 
 .fruitsplash-fruit.orange{
   width:100%;
-  max-width:1300px;
+  width:1300px;
   display:block;
   background-image:url(images/orange-background.jpg);
   background-size:cover;
@@ -61,7 +61,7 @@
 
 .fruitsplash-fruit.pineapple{
   width:100%;
-  max-width:1300px;
+  width:1300px;
   display:block;
   background-image:url(images/pineapple-background.jpg);
   background-size:cover;
@@ -71,7 +71,7 @@
 
 .fruitsplash-fruit.mango{
   width:100%;
-  max-width:1300px;
+  width:1300px;
   display:block;
   background-image:url(images/mango-background.jpg);
   background-size:cover;
@@ -81,7 +81,7 @@
 
 .fruitsplash-fruit.pawpaw{
   width:100%;
-  max-width:1300px;
+  width:1300px;
   display:block;
   background-image:url(images/pawpaw-background.jpg);
   background-size:cover;
