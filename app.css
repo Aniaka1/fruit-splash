@@ -33,19 +33,17 @@
   width:100%;
   max-width:1300px;
   display:block;
-  background:url(images/strawberry-background.jpg);
+  background:url(images/strawberry-background-2.jpg);
   background-size:cover;
   background-position:center;
   background-repeat:no-repeat;
-  object-fit:cover;
-  object-position:top;
 }
 
 .fruitsplash-fruit.apple{
   width:100%;
   max-width:1300px;
   display:block;
-  background:url(images/apple-background.jpg);
+  background:url(images/apple-background-2.jpg);
   background-size:cover;
   background-position:center;
   background-repeat:no-repeat;
@@ -342,7 +340,7 @@
 .fruitsplash-fruit.strawberry .fruitsplash-description,
 .fruitsplash-fruit.apple .fruitsplash-description,
 .fruitsplash-fruit.orange .fruitsplash-description,
-.fruitsplash-fruit.pineappple .fruitsplash-description,
+.fruitsplash-fruit.pineapple .fruitsplash-description,
 .fruitsplash-fruit.mango .fruitsplash-description,
 .fruitsplash-fruit.pawpaw .fruitsplash-description{
   font-size:20px;
