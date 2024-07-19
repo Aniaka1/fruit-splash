@@ -322,7 +322,7 @@
   position:relative;
   width:1200px;
   height:auto;
-  margin-top:150px;
+  margin-top:200px;
   padding-left:100px;
 }
 
@@ -496,7 +496,7 @@
 /*image box section*/
 .fruitsplash-imagebox-container{
   position:absolute;
-  top:60%;
+  top:70%;
   left:700px;
   width:500px;
   height:250px;
@@ -558,7 +558,7 @@
 /*dot section*/
 .fruitsplash-dot-container{
   position:absolute;
-  top:630px;
+  top:700px;
   left:500px;
   width:250px;
   height:40px;
