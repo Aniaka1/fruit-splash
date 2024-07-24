@@ -624,7 +624,7 @@
   min-height:100vh;
   background:lightgrey;
   box-shadow:-5px 3px 3px 0 grey;
-  z-index:4;
+  z-index:10;
   transition:750ms ease-in-out;
 }
 
