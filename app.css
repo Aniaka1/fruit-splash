@@ -8,8 +8,7 @@
 
 /*landing page section*/
 .fruitsplash-container{
-  width:100%;
-  max-width:1300px;
+  width:1300px;
 }
 
 .fruitsplash-fruit{
@@ -30,7 +29,6 @@
 }
 
 .fruitsplash-fruit.strawberry{
-  width:100%;
   width:1300px;
   display:block;
   background-image:url(images/strawberry-background-2.jpg);
@@ -40,7 +38,6 @@
 }
 
 .fruitsplash-fruit.apple{
-  width:100%;
   width:1300px;
   display:block;
   background-image:url(images/apple-background-3.jpg);
@@ -50,7 +47,6 @@
 }
 
 .fruitsplash-fruit.orange{
-  width:100%;
   width:1300px;
   display:block;
   background-image:url(images/orange-background.jpg);
@@ -60,7 +56,6 @@
 }
 
 .fruitsplash-fruit.pineapple{
-  width:100%;
   width:1300px;
   display:block;
   background-image:url(images/pineapple-background.jpg);
@@ -70,7 +65,6 @@
 }
 
 .fruitsplash-fruit.mango{
-  width:100%;
   width:1300px;
   display:block;
   background-image:url(images/mango-background-2.jpg);
@@ -80,7 +74,6 @@
 }
 
 .fruitsplash-fruit.pawpaw{
-  width:100%;
   width:1300px;
   display:block;
   background-image:url(images/pawpaw-background-2.jpg);
@@ -313,6 +306,18 @@
   font-size:1.8rem;
 }
 
+
+.fruitsplash-fruit.strawberry .navbar-cart-logo,
+.fruitsplash-fruit.apple .navbar-cart-logo,
+.fruitsplash-fruit.orange .navbar-cart-logo,
+.fruitsplash-fruit.pineapple .navbar-cart-logo,
+.fruitsplash-fruit.mango .navbar-cart-logo,
+.fruitsplash-fruit.pawpaw .navbar-cart-logo{
+  background:transparent;
+  border:none;
+  outline:none;
+}
+
 .fruitsplash-fruit.strawberry .fruitsplash-container,
 .fruitsplash-fruit.apple .fruitsplash-container,
 .fruitsplash-fruit.orange .fruitsplash-container,
@@ -324,6 +329,7 @@
   height:auto;
   margin-top:200px;
   padding-left:100px;
+  z-index:5;
 }
 
 .fruitsplash-fruit.strawberry .fruitsplash-header,
@@ -407,7 +413,7 @@
   color:gold;
 }
 
-.fruitsplash-fruit.strawberry .fruitsplash-strawberry-btn{
+.fruitsplash-fruit.strawberry #fruitsplash-strawberry-btn{
   width:120px;
   padding:10px;
   background:red;
@@ -422,7 +428,7 @@
 }
 
 
-.fruitsplash-fruit.apple .fruitsplash-strawberry-btn{
+.fruitsplash-fruit.apple #fruitsplash-strawberry-btn{
   width:120px;
   padding:10px;
   background:green;
@@ -437,7 +443,7 @@
 }
 
 
-.fruitsplash-fruit.orange .fruitsplash-strawberry-btn{
+.fruitsplash-fruit.orange #fruitsplash-strawberry-btn{
   width:120px;
   padding:10px;
   background:orange;
@@ -451,7 +457,7 @@
   cursor:pointer;
 }
 
-.fruitsplash-fruit.pineapple .fruitsplash-strawberry-btn{
+.fruitsplash-fruit.pineapple #fruitsplash-strawberry-btn{
   width:120px;
   padding:10px;
   background:yellow;
@@ -465,7 +471,7 @@
   cursor:pointer;
 }
 
-.fruitsplash-fruit.mango .fruitsplash-strawberry-btn{
+.fruitsplash-fruit.mango #fruitsplash-strawberry-btn{
   width:120px;
   padding:10px;
   background:orange;
@@ -479,7 +485,7 @@
   cursor:pointer;
 }
 
-.fruitsplash-fruit.pawpaw .fruitsplash-strawberry-btn{
+.fruitsplash-fruit.pawpaw #fruitsplash-strawberry-btn{
   width:120px;
   padding:10px;
   background:gold;
@@ -607,4 +613,138 @@
 
 .fruitsplash-dot-container .circle.gold{
   background:gold;
+}
+
+/*cart section*/
+.fruitsplash-cart-container{
+  position:absolute;
+  top:0;
+  right:-1300px;
+  width:360px;
+  min-height:100vh;
+  background:lightgrey;
+  box-shadow:-5px 3px 3px 0 grey;
+  z-index:4;
+  transition:350ms ease-in-out;
+}
+
+.fruitsplash-cart-container.active{
+  top:0;
+  right:-880px;
+  transition:350ms ease-in-out;
+}
+
+.fruitsplash-cart-name{
+  margin-top:20px;
+  text-align:center;
+  font-family:calibri;
+}
+
+.fruitsplash-cart-btn{
+  width:60%;
+  height:50px;
+  margin-top:20px;
+  margin-left:70px;
+  font-size:20px;
+  background-color:lightgreen;
+  border-radius:10px;
+  border:none;
+  outline:none;
+}
+
+.fruitsplash-cart-close{
+  position:absolute;
+  top:5px;
+  left:30px;
+  width:50px;
+  height:50px;
+  background:transparent;
+  border:none;
+  color:red;
+  font-size:40px;
+  cursor:pointer;
+  z-index:5;
+}
+
+.cart-box{
+  display:grid;
+  grid-template-columns:38% 45% 17%;
+  align-items:center;
+  justify-content:center;
+  gap:1rem;
+  margin-top:1rem;
+}
+
+.cart-product-image{
+  width:100px;
+  height:100px;
+  object-fit:contain;
+  padding:20px;
+}
+
+.product-detail{
+  display:grid;
+  row-gap:0.5rem;
+}
+
+.product-detail .cart-product-title{
+  font-size:1rem;
+  text-transform:uppercase;
+}
+
+.product-detail .cart-price{
+  font-weight:500;
+}
+
+.product-detail .cart-quantity {
+    border:1px grey;
+    outline-color:grey;
+    width:2.4rem;
+    text-align:center;
+    font-size:1rem;
+    cursor:pointer;
+}
+
+#fruitsplash-cart-remove {
+    font-size:24px;
+    color:red;
+    cursor:pointer;
+    margin-right:20px;
+}
+
+.remove-btn{
+  background:transparent;
+  border:none;
+}
+
+.fruitsplash-cart-total {
+    display:flex;
+    justify-content:flex-end;
+    margin-right:40px;
+    margin-top:1.5rem;
+    border-top:1px solid black;
+    font-size:1rem;
+    font-weight:600;
+}
+
+.fruitsplash-image-price{
+  position:absolute;
+  top:7%;
+  right:65%;
+  font-weight:bolder;
+}
+
+.fruitsplash-image-cart{
+  position:absolute;
+  bottom:3%;
+  left:70%;
+  font-size:40px;
+  cursor:pointer;
+  transition:250ms ease;
+  z-index:5;
+}
+
+.fruitsplash-image-cart:hover{
+  color:white;
+  transition:250ms ease;
 }

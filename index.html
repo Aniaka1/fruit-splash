@@ -10,6 +10,16 @@
 </head>
 <body>
   <div class="fruitsplash-container">
+    <!-cart section->
+       <div class="fruitsplash-cart-container">
+         <button class="fruitsplash-cart-close">&times;</button>
+         <h2 class="fruitsplash-cart-name">Fruit Cart</h2>
+         <div class="fruitsplash-cart-content">
+           
+         </div>
+         <div class="fruitsplash-cart-total"></div>
+         <button class="fruitsplash-cart-btn">Buy Now</button>
+       </div>
   <!-strawberrysection->
   <div class="fruitsplash-wrapper active" active-element = "active">
   <div class="fruitsplash-fruit strawberry">
@@ -47,7 +57,7 @@
             <p class="navbar-login-text">LOGIN</p>
           </div>
           <button class="navbar-btn">SHOP NOW</button>
-           <i class="bx bx-cart" id="navbar-cart-logo"></i>   
+          <button class="navbar-cart-logo"><i class="bx bx-cart" id="navbar-cart-logo"></i></button>  
         </div>
       </div>
     </nav>
@@ -57,7 +67,10 @@
       <p class="fruitsplash-description">WAKE UP WITH OUR MORNING MOTIVATION PRODUCT LINE.</p>
       <p class="fruitsplash-statement">NEW MORNING,NEW SMILE!</p>
       <h2 class="fruitsplash-motto">Strawberry Surge</h2>
-      <button class="fruitsplash-strawberry-btn">Shop Now</button>
+      <div class="fruitsplash-title" style="display:none">Strawberry</div>
+      <div class="fruitsplash-price" style="display:none">$2.56</div>
+      <img src="images/strawberry-display.jpg" alt="strawberry cart" class="fruitsplash-image" style="display:none">
+      <button id="fruitsplash-strawberry-btn" class="add-to-cart">ADD TO CART</button>
     </section>
   </div>
   </div>
@@ -98,7 +111,7 @@
             <p class="navbar-login-text">LOGIN</p>
           </div>
           <button class="navbar-btn">SHOP NOW</button>
-           <i class="bx bx-cart" id="navbar-cart-logo"></i>   
+          <button class="navbar-cart-logo"><i class="bx bx-cart" id="navbar-cart-logo"></i></button>
         </div>
       </div>
     </nav>
@@ -107,8 +120,11 @@
       <h1 class="fruitsplash-header">VITALITY FOR EVERYDAY!</h1>
       <p class="fruitsplash-description">WAKE UP WITH OUR MORNING MOTIVATION PRODUCT LINE.</p>
       <p class="fruitsplash-statement">NEW MORNING,NEW SMILE!</p>
-      <h2 class="fruitsplash-motto">Apple Boost</h2>
-      <button class="fruitsplash-strawberry-btn">Shop Now</button>
+      <h2 class="fruitsplash-motto">Apple Boost</h2>   
+      <div class="fruitsplash-title" style="display:none">Apple</div>
+      <div class="fruitsplash-price" style="display:none">$1.62</div>
+      <img src="images/apple-display.jpg" alt="apple cart" class="fruitsplash-image" style="display:none">
+      <button id="fruitsplash-strawberry-btn" class="add-to-cart">ADD TO CART</button>
     </section>
   </div>
   </div>
@@ -149,7 +165,7 @@
             <p class="navbar-login-text">LOGIN</p>
           </div>
           <button class="navbar-btn">SHOP NOW</button>
-           <i class="bx bx-cart" id="navbar-cart-logo"></i>   
+          <button class="navbar-cart-logo"><i class="bx bx-cart" id="navbar-cart-logo"></i></button>
         </div>
       </div>
     </nav>
@@ -159,7 +175,10 @@
       <p class="fruitsplash-description">WAKE UP WITH OUR MORNING MOTIVATION PRODUCT LINE.</p>
       <p class="fruitsplash-statement">NEW MORNING,NEW SMILE!</p>
       <h2 class="fruitsplash-motto">Orange Courage</h2>
-      <button class="fruitsplash-strawberry-btn">Shop Now</button>
+      <div class="fruitsplash-title" style="display:none">Orange</div>
+      <div class="fruitsplash-price" style="display:none">$3.52</div>
+      <img src="images/orange-display.jpg" alt="orange cart" class="fruitsplash-image" style="display:none">
+      <button id="fruitsplash-strawberry-btn" class="add-to-cart">ADD TO CART</button>
     </section>
   </div>
   </div>
@@ -200,7 +219,7 @@
             <p class="navbar-login-text">LOGIN</p>
           </div>
           <button class="navbar-btn">SHOP NOW</button>
-           <i class="bx bx-cart" id="navbar-cart-logo"></i>   
+           <button class="navbar-cart-logo"><i class="bx bx-cart" id="navbar-cart-logo"></i></button>
         </div>
       </div>
     </nav>
@@ -210,7 +229,10 @@
       <p class="fruitsplash-description">WAKE UP WITH OUR MORNING MOTIVATION PRODUCT LINE.</p>
       <p class="fruitsplash-statement">NEW MORNING,NEW SMILE!</p>
       <h2 class="fruitsplash-motto">Pine Bravery</h2>
-      <button class="fruitsplash-strawberry-btn">Shop Now</button>
+      <div class="fruitsplash-title" style="display:none">Pineapple</div>
+      <div class="fruitsplash-price" style="display:none">$2.05</div>
+      <img src="images/pineapple-display.jpg" alt="pineapple cart" class="fruitsplash-image" style="display:none">
+      <button id="fruitsplash-strawberry-btn" class="add-to-cart">ADD TO CART</button>
     </section>
   </div>
   </div>
@@ -251,7 +273,7 @@
             <p class="navbar-login-text">LOGIN</p>
           </div>
           <button class="navbar-btn">SHOP NOW</button>
-           <i class="bx bx-cart" id="navbar-cart-logo"></i>   
+          <button class="navbar-cart-logo"><i class="bx bx-cart" id="navbar-cart-logo"></i></button>
         </div>
       </div>
     </nav>
@@ -261,7 +283,10 @@
       <p class="fruitsplash-description">WAKE UP WITH OUR MORNING MOTIVATION PRODUCT LINE.</p>
       <p class="fruitsplash-statement">NEW MORNING,NEW SMILE!</p>
       <h2 class="fruitsplash-motto">Mango Mania</h2>
-      <button class="fruitsplash-strawberry-btn">Shop Now</button>
+      <div class="fruitsplash-title" style="display:none">Mango</div>
+      <div class="fruitsplash-price" style="display:none">$1.67</div>
+      <img src="images/mango-display.jpg" alt="mango cart" class="fruitsplash-image" style="display:none">
+      <button id="fruitsplash-strawberry-btn" class="add-to-cart">ADD TO CART</button>
     </section>
   </div>
   </div>
@@ -302,7 +327,7 @@
             <p class="navbar-login-text">LOGIN</p>
           </div>
           <button class="navbar-btn">SHOP NOW</button>
-           <i class="bx bx-cart" id="navbar-cart-logo"></i>   
+          <button class="navbar-cart-logo"><i class="bx bx-cart" id="navbar-cart-logo"></i></button>
         </div>
       </div>
     </nav>
@@ -312,7 +337,10 @@
       <p class="fruitsplash-description">WAKE UP WITH OUR MORNING MOTIVATION PRODUCT LINE.</p>
       <p class="fruitsplash-statement">NEW MORNING,NEW SMILE!</p>
       <h2 class="fruitsplash-motto">PawPaw Feast</h2>
-      <button class="fruitsplash-strawberry-btn">Shop Now</button>
+      <div class="fruitsplash-title" style="display:none">PawPaw</div>
+      <div class="fruitsplash-price" style="display:none">$2.80</div>
+      <img src="images/pawpaw-display.jpg" alt="pawpaw cart" class="fruitsplash-image" style="display:none">
+      <button id="fruitsplash-strawberry-btn" class="add-to-cart">ADD TO CART</button>
     </section>
   </div>
   </div>
@@ -333,22 +361,34 @@
       <div class="fruitsplash-imagebox-wrapper">
         <!-image display section->
       <div class="fruitsplash-image-display active" display-element="active">
-        <img src="images/strawberry-display.jpg" alt="strawberry display">
+        <span class="fruitsplash-image-price" style="color:red">$2.56</span>
+        <img src="images/strawberry-display.jpg" alt="strawberry display" class="fruitsplash-img">
+        <div class="fruitsplash-image-cart"><i class="bx bxs-cart" id="fruitsplash-cart-add" style="color:red"></i></div>
+      </div>
+      <div class="fruitsplash-image-display" display-element="active">  
+        <span class="fruitsplash-image-price" style="color:green">$1.62</span>
+        <img src="images/apple-display.jpg" alt="apple display" class="fruitsplash-img">
+        <div class="fruitsplash-image-cart"><i class="bx bxs-cart" id="fruitsplash-cart-add" style="color:green"></i></div>
       </div>
       <div class="fruitsplash-image-display" display-element="active">
-        <img src="images/apple-display.jpg" alt="apple display">
-      </div>
-      <div class="fruitsplash-image-display" display-element="active">
+        <span class="fruitsplash-image-price" style="color:orange">$3.52</span>
         <img src="images/orange-display.jpg" alt="orange display">
+        <div class="fruitsplash-image-cart"><i class="bx bxs-cart" id="fruitsplash-cart-add" style="color:orange"></i></div>
       </div>
       <div class="fruitsplash-image-display" display-element="active">
+        <span class="fruitsplash-image-price" style="color:gold">$2.05</span>
         <img src="images/pineapple-display.jpg" alt="pineapple display">
+        <div class="fruitsplash-image-cart"><i class="bx bxs-cart" id="fruitsplash-cart-add" style="color:gold"></i></div>
       </div>
       <div class="fruitsplash-image-display" display-element="active">
+        <span class="fruitsplash-image-price" style="color:orange">$1.67</span>
         <img src="images/mango-display.jpg" alt="mango display">
+       <div class="fruitsplash-image-cart"><i class="bx bxs-cart" id="fruitsplash-cart-add" style="color:orange"></i></div>
       </div>
       <div class="fruitsplash-image-display" display-element="active">
-        <img src="images/pawpaw-display.jpg" alt="mango display">
+        <span class="fruitsplash-image-price" style="color:gold">$2.80</span>
+        <img src="images/pawpaw-display.jpg" alt="pawpaw display">
+       <div class="fruitsplash-image-cart"><i class="bx bxs-cart" id="fruitsplash-cart-add" style="color:gold"></i></div>
       </div>
         <!-image wait section->
       <div class="fruitsplash-image-wait active" wait-element="active">
@@ -369,7 +409,8 @@
       <div class="fruitsplash-image-wait" wait-element="active">
         <img src="images/strawberry-display.jpg" alt="strawberry display">
       </div>
-      </div>
+      </div>   
+    </div>
     </div>
 </body>
 <script src="script.js"></script>
