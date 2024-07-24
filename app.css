@@ -618,20 +618,20 @@
 /*cart section*/
 .fruitsplash-cart-container{
   position:absolute;
-  top:0;
-  right:-1300px;
+  top:-880px;
+  right:-880px;
   width:360px;
   min-height:100vh;
   background:lightgrey;
   box-shadow:-5px 3px 3px 0 grey;
   z-index:4;
-  transition:350ms ease-in-out;
+  transition:750ms ease-in-out;
 }
 
 .fruitsplash-cart-container.active{
   top:0;
   right:-880px;
-  transition:350ms ease-in-out;
+  transition:750ms ease-in-out;
 }
 
 .fruitsplash-cart-name{
